@@ -91,6 +91,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "EstacionamientoIOT:build:production",
+            "firebaseProject": "iot-estacionamiento-51db2",
+            "firebaseHostingSite": "iot-estacionamiento-51db2"
+          }
         }
       }
     }
