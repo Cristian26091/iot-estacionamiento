@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "iot-estacionamiento-51db2": {
+      "hosting": {
+        "EstacionamientoIOT": [
+          "iot-estacionamiento-51db2"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "iot-estacionamiento-51db2"
+  }
+}
